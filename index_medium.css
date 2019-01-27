@@ -1,0 +1,39 @@
+@import url("index.css");
+
+header > div, article > div, footer > div {
+	width:  	800px;
+}
+#block_1 > div > div > img {
+	width: 		400px;
+}
+#block_1_text {
+	width: 		300px;
+	font-size: 	1.0em;
+}
+#block_1_text > h1 {
+	font-size: 	1.5em;
+}
+#block_1_text > div > p {
+	font-size: 	0.9em;
+}
+#block_1 {
+	margin-top: 	20px;
+	height: 		400px;
+}
+#block_2_img > img {
+	padding-left: 	20px;
+}
+#block_3 > div > div {
+	width: 			32%;
+}
+
+#block_3_img > img {
+	width: 			300px;
+}
+#block_4_img > img {
+	margin-left: 	-50px;
+}
+#div_device_img, #div_device_text {
+	width: 			40%;
+}
+

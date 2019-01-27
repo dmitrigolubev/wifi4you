@@ -1,0 +1,365 @@
+body {
+	width:          	100%;
+	font-family:    	Arial, sans-serif;
+	background-color: 	#fff;
+	overflow-x: 		hidden;
+	margin: 			0;
+}
+header > div, article > div, footer > div {
+	margin:         	0 auto;
+	width:  			1200px;
+}
+
+header {
+	margin-top: 		30px;
+	text-align: 		center;
+	font-weight: 		bold;
+}
+header > div > div {
+	margin: 			0 auto;
+	display: 			inline-block;
+
+}
+header a {
+	color: 				#000;
+	text-decoration: 	none;
+}
+header a:hover {
+	color: 				#6a6a6a;
+	transition: 		0.2s;
+}
+
+.only_mobile {
+	display: 			none;
+}
+/*-------------------------------INDEX.HTML-------------------*/
+#logo_image > a > img {
+	width:        		200px;
+	vertical-align: 	bottom;
+}
+
+#menu, #language {
+	vertical-align: 	top;
+	text-decoration: 	none;
+	margin-top: 		20px;
+}
+#logo_image {
+	width: 				20%
+}
+#menu {
+	margin-left: 		8%; 	
+	width: 				70%;
+}
+#language {
+	width: 				13%;
+	display: 			none;
+}
+#menu ul, #language ul {
+	padding: 		0px;
+}
+#menu li, #language li {
+	display: 			inline-block;
+	padding: 			2px 25px;
+}
+
+#language li {
+	background-color: 	#fecc00;
+	padding: 			2px 7px;
+}
+#language li:hover {
+	background-color: 	#bdbdbd;
+	transition: 		0.2s;
+}
+
+#block_1 {
+	margin-top: 		50px;
+	height: 			600px;
+	background-image: url(images/block_1_back.jpg);
+	background-position-x:	center; 
+	background-size: 		cover;
+}
+#block_1 > div > div {
+	display: 			inline-block;
+	vertical-align: 	top;
+}
+
+#block_1 > div > div > img {
+	width: 				500px;
+}
+#block_1_text {
+	width: 				650px;
+	font-size: 			1.5em;
+}
+#block_1_text > h1 {
+	color: 				#fff;
+	font-size: 			2.5em;
+}
+#block_1_text p {
+	line-height: 		0.4em;
+	color: 				#fff;
+}
+#block_1_text > div > p {
+	margin-top: 		50px;
+	color: 				#fff;
+	font-size: 			1.2em;
+}
+/*--------------------------------------------------КУБИК С ЦЕНОЙ-*/
+div.price {
+	width: 				200px;
+	background-color: 	#f4dc96; 
+	padding: 			10px 20px 10px 20px;
+	display: 			inline-block;
+}
+div.price > span  {
+	font-size: 			1.5em;
+}
+/*--------------------------------------------------КУБИК С ЦЕНОЙ-*/
+a.click_for_rent {
+	text-decoration: 	none;
+	color: 				#fff;
+	font-weight:  		bold;
+	font-size: 			1.0em;
+}
+a.click_for_rent > div {
+	width: 				50px;
+	background-color: 	#29b1ff;
+	padding: 			10px 5px 15px 20px;
+}
+a.click_for_rent :hover {
+	background-color: 	#a5deff;
+	color: 				#000;
+	transition: 		0.3s;
+}
+/*--------------------------------------------------КУБИК -------*/
+#block_2 {
+	margin-top: 			0px;
+	height: 				300px;
+	background-image: 		url(images/line_sity.jpg);
+	background-position-x:	center; 
+	background-size: 		cover;
+}
+#block_2 > div > div {
+	display: 			inline-block;
+	vertical-align: 	bottom;
+}
+#block_2_img {
+	height: 			300px;
+	width: 				39%;
+}
+#block_2_img > img {
+	height: 			350px;
+	padding-left: 		150px;
+}
+#block_2_text {
+	height: 			300px;
+	width: 				60%;
+}
+#block_2_text > img {
+	margin-left: 		100px;
+	height: 			150px;
+	margin-top: 		20px;
+}
+#block_2_text > p {
+	font-size: 			1.5em;
+	font-weight: 		bold;
+	width: 				310px;
+	text-align: 		left;
+}
+#block_3 {
+	margin-top: 		50px;
+	text-align: 		center;
+}
+#block_3 > div > div {
+	display: 			inline-block;
+	vertical-align: 	top;
+	margin-top: 		50px;
+	width: 				25%;
+	text-align: 		center;
+}
+#block_3_logo > img {
+	width: 				200px;
+}
+#block_3_img > img {
+	width: 				400px;
+}
+#block_4 {
+	margin-top: 			140px;
+	height: 				170px;
+	text-align: 			center;
+	background-image: 		url(images/bg_five.jpg);
+	background-position-x:	center; 
+	background-size: 		cover;
+}
+#block_4 > div > div {
+	display: 			inline-block;
+	vertical-align: 	bottom;
+	margin-top: 		-258px;
+	width: 				48%;
+	text-align: 		left;
+}
+#block_4_img > img {
+	vertical-align: 	bottom;
+	height: 			428px;
+}
+#block_5 {
+	height: 				250px;
+	text-align: 			center;
+	background-image: 		url(images/bg_four.jpg);
+	background-position-x:	center; 
+	background-size: 		cover;
+	padding-top: 			50px
+}
+#block_5 > div > div {
+	display: 				inline-block;
+	vertical-align: 		top;
+	width: 					25%;
+	text-align: 			center;
+	font-size: 				1.2em;
+	font-weight: 			bold;
+}
+#block_6, #block_6 > div > p  {
+	text-align: 			center;
+	margin: 				5px;
+}
+#block_6 > div > img#block_6_logo {
+	height: 			100px;
+	margin-top: 		30px;
+}
+#block_6 > div > img {
+	height: 			30px;
+}
+
+#block_7 {
+	height: 				90px;
+	text-align: 			center;
+	background-image: 		url(images/bg_five.jpg);
+	background-position-x:	center; 
+	background-size: 		cover;
+	padding-top: 			30px
+}
+#block_7 > div > a > div {
+	width: 					400px;
+	display: 				inline-block;
+}
+
+
+#block_7 > div > a {
+	font-size: 				1.5em;
+}
+
+#block_8 img {
+	height: 				100px;
+}
+#block_8 p {
+	font-style: 			italic;
+}
+#block_9 {
+	margin-top: 			50px;
+	text-align: 			center;
+	background-image: 		url(images/moscow.jpg);
+	background-position-x:	center; 
+	background-size: 		cover;
+	height: 				400px;
+}
+#block_9 img {
+	height: 				100px;
+	margin-bottom: 			30px;
+}
+#block_9 > div > a {
+	text-align: 			center;
+	display: 				inline-block;
+}
+footer {
+	background-color: 		#353535;
+	height: 				200px;
+	text-align: 			center;
+}
+footer ul {
+	margin: 				0;
+	text-align: 			center;
+	padding: 				15px;
+}
+footer li {
+	display: 				inline-block;
+	text-decoration: 		none;
+	padding: 				0px 30px; 
+}
+footer a {
+	color: 					#fff;
+	text-decoration: 		none;
+	font-weight: 			bold;
+}
+footer p {
+	color: 					#fff;
+	margin: 				30px;
+}
+footer > div > p > a {
+	font-weight: 			normal;
+	text-decoration: 		underline;
+}
+.ur_adress {
+	color: 					#6d6d6d;
+}
+/*-------------------------------DEVICE.HTML-------------------*/
+
+#device {
+	text-align: 	center;
+	margin-bottom: 	50px;
+}
+.logo_img {
+	width: 			200px;
+	margin-top: 	50px;
+}
+#div_device_img, #div_device_text {
+	display: 		inline-block;
+	vertical-align: top;
+	width: 			25%;
+}
+#div_device_text {
+	text-align: 	left;
+}
+.device_img {
+	width:			300px; 
+}
+form {
+	text-align: 		left;
+	line-height: 		2.5em;
+	font-size: 			1.1em;
+}
+form a {
+	text-align: 		center;
+	line-height: 		1em;
+}
+form #submit {
+	padding: 			10px;
+	background-color: 	#29b1ff;
+	width: 				315px;
+	display: 			inline-block;
+	border: 			none;
+	font-size: 			1.5em;
+	font-weight: 		bold;
+	cursor: 			pointer;
+	
+}
+form #submit:hover {
+	background-color: 		#a5deff;
+	color: 				#000;
+	transition: 			0.3s;	
+}
+
+a.click_for_rent {
+	text-decoration: 	none;
+	color: 				#fff;
+	font-weight:  		bold;
+	font-size: 			1.2em;
+}
+a.click_for_rent > div {
+	width: 				250px;
+	background-color: 	#29b1ff;
+	padding: 			10px 5px 15px 20px;
+}
+a.click_for_rent :hover {
+	background-color: 	#a5deff;
+	color: 				#000;
+	transition: 		0.3s;
+}

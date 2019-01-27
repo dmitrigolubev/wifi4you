@@ -1,0 +1,315 @@
+body {
+	width:          	100%;
+	font-family:    	Arial, sans-serif;
+	background-color: 	#fff;
+	overflow-x: 		hidden;
+	margin: 			0;
+}
+header > div, article > div, footer > div {
+	margin:         	0 auto;
+	text-align: 		center;
+}
+#logo_image {
+	text-align: 	center;
+}
+#logo_image img {
+	width: 			200px;
+}
+#open_menu_line > div {
+	background: 		linear-gradient(to top, #29b1ff, #a5deff);
+	border-radius: 		5px;
+	padding: 			10px 10px 10px 10px;
+}
+#open_menu_line > div > div {
+	width: 30px; height: 5px;
+	background: 		#000;
+	border-radius: 		5px/5px;
+	margin-bottom: 		5px;
+}
+#open_menu_line > div > div:last-child {
+	margin-bottom: 		0px;
+}
+/*---------------------------------- МОДАЛЬНОЕ ОКНО-------------------*/
+	.modal_window {
+		position:             fixed;
+	    top:                  0;
+	    right:                0;
+	    bottom:               0;
+	    left:                 0;
+	    background:           rgba(0,0,0,0.8);
+	    z-index:              999;
+	    display:              none;
+	    pointer-events:       none;
+	}
+	.modal_window:target {
+		display:              block;
+	    pointer-events:       auto;
+	}
+	.modal_window > div {
+		width:              400px;
+	    overflow-y:         auto;
+	    overflow-x:         hidden;    
+	    position:			relative;
+	    margin: 			0px auto;
+	}
+	.close {
+		z-index:        -2;
+		background:     #000;
+		opacity: 		0;
+		position:       fixed;
+	    top:            0;
+	    right:          0;
+	    bottom:         0;
+	    left:			0;
+	}
+
+/*---------------------------------- МОДАЛЬНОЕ ОКНО-------------------*/
+#menu ul {
+	text-align: 		center;
+	padding: 			0;
+}
+#menu li {
+	list-style-type: 	none;
+	margin: 			50px;
+}
+#menu a {
+	text-decoration: 	none;
+	font-size: 			2em;
+	color: 				#fff;
+	font-weight: 		bold;
+}
+#menu > div {
+	text-align: 		center;
+}
+#menu div > a > img {
+	margin-top: 		20px;
+	height: 			60px;
+	background-color: 	#fff;
+	border-radius: 		30%;
+	padding:  			10px 20px 20px 20px;
+}
+#language {
+	display: 		none;
+}
+#block_1 {
+	background-image: 	url(images/block_1_back.jpg);
+	background-position-x:	-450px; 
+	background-size: 		cover;
+}
+#block_1_img > img {
+	width: 			400px;
+}
+h1 {
+	color: 			#fff;
+	font-size: 		1.8em;
+	font-weight: 	bold;
+	margin: 		0px 100px;
+}
+#block_1 p {
+	color: 			#fff;
+}
+#block_1_text {
+	text-align: 	center;
+}
+/*--------------------------------------------------КУБИК С ЦЕНОЙ-*/
+div.price {
+	width: 				160px;
+	background-color: 	#f4dc96; 
+	padding: 			10px 5px 15px 20px;
+	vertical-align: 	top;
+	display: 			inline-block;
+}
+div.price > span  {
+	font-size: 			1.5em;
+}
+/*--------------------------------------------------КУБИК С ЦЕНОЙ-*/
+a.click_for_rent {
+	text-decoration: 	none;
+	color: 				#fff;
+	font-weight:  		bold;
+	font-size: 			1.5em;
+	display: 			inline-block;
+}
+a.click_for_rent > div {
+	width: 				250px;
+	background-color: 	#29b1ff;
+	padding: 			10px 5px 15px 20px;
+	vertical-align: 	top;
+}
+/*--------------------------------------------------КУБИК -------*/
+#block_2 {
+	background-color: 	#eee;
+}
+#block_2_img {
+	display: 			none;
+}
+#block_2_text > img {
+	width: 				200px;
+}
+#block_3 {
+	width: 				80%;
+	margin: 			0 auto;
+	margin-top: 		10px;
+}
+#block_3_logo > img, #block_6_logo, #block_9 img {
+	width: 				200px;
+}
+#block_3_img > img {
+	width: 				300px;
+}
+#block_4_img {
+	display: 			none;
+}
+#block_4, #block_7 {
+	background-image: 		url(images/bg_five.jpg);
+	background-position-x:	center; 
+	background-size: 		cover;
+	height: 				120px;
+	padding-top:			20%; 			
+}
+#block_5 {
+	text-align: 			center;
+	background-image: 		url(images/bg_four.jpg);
+	background-position-x:	center; 
+	background-size: 		contain;
+	padding: 				50px;
+	margin-bottom:			30px;
+}
+#block_8 img {
+	width: 					200px;
+}
+#block_8 table {
+	text-align: 			left;
+	padding: 				5px;
+}
+#block_8 td {
+	padding-bottom: 			10px;
+}
+#block_8 h4, #block_8 h5, #block_8 p {
+	margin: 				10px;
+}
+footer {
+	background-color: 		#353535;
+	padding-bottom: 		10px; 				
+	text-align: 			center;
+}
+footer ul {
+	margin: 				0;
+	text-align: 			center;
+	padding: 				15px;
+}
+footer li {
+	list-style-type: 		none;
+	text-decoration: 		none;
+	padding: 				0px 10px; 
+	line-height: 			2.5em;
+}
+footer a {
+	color: 					#fff;
+	text-decoration: 		none;
+	font-weight: 			bold;
+}
+footer p {
+	color: 					#fff;
+}
+footer > div > p > a {
+	font-weight: 			normal;
+	text-decoration: 		underline;
+}
+.ur_adress {
+	color: 					#6d6d6d;
+}
+#device_logo {
+	display: 			none;
+} 
+#div_device_img, #div_device_text {
+	width: 			49%;
+	margin-top: 	50px;
+}
+.device_img {
+	width: 			300px;
+}
+#device {
+	margin-bottom: 	50px;
+}
+#device h1 {
+	color: 			#000;
+	margin: 		20px 0px 0px 0px;
+}
+#faq {
+	width: 		 	80%;
+	margin: 		0 auto;
+}
+#div_device_text {
+	width: 			80%;
+	margin: 		0 auto;
+}
+#div_device_text td {
+	width: 			49%;
+}
+#div_device_text table {
+	margin-bottom: 		20px;
+}
+form #submit {
+	padding: 			10px;
+	background-color: 	#29b1ff;
+	width: 				315px;
+	display: 			inline-block;
+	border: 			none;
+	font-size: 			1.5em;
+	font-weight: 		bold;
+	cursor: 			pointer;
+	
+}
+form #submit:hover {
+	background-color: 		#a5deff;
+	color: 				#000;
+	transition: 			0.3s;	
+}
+
+a.click_for_rent {
+	text-decoration: 	none;
+	color: 				#fff;
+	font-weight:  		bold;
+	font-size: 			1.2em;
+}
+a.click_for_rent > div {
+	width: 				250px;
+	background-color: 	#29b1ff;
+	padding: 			10px 5px 15px 20px;
+}
+a.click_for_rent :hover {
+	background-color: 	#a5deff;
+	color: 				#000;
+	transition: 		0.3s;
+}
+
+.x_close{
+    position: 		absolute;
+    bottom: 		10px;
+    right: 			40%;
+    width: 			60px;
+    height: 		60px;
+    cursor: 		pointer;
+    border: 		4px solid #fff;
+    border-radius: 	50%;
+}
+
+.x_close:before,
+.x_close:after {
+    content: 		"";
+    position: 		absolute;
+    top: 			25px;
+    left: 			13px;
+    width: 			35px;
+    height: 		8px;
+    background: 	#fff;
+}
+
+.x_close:before {
+    transform: 			rotate(45deg);
+}
+
+.x_close:after {
+    transform: 			rotate(-45deg);
+}
